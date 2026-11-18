@@ -74,3 +74,10 @@ This is a descriptive audit; overlapping attribution and source export grains ca
 ## Publication note
 
 This library intentionally excludes real data and employer identifiers. That does **not** establish ownership or permission to publish code created during employment. Review applicable agreements before making a public repository.
+
+
+## Portable use with independently authorized data
+
+The committed examples are fictional and are intended to exercise the analysis scripts without a live store. For another organization, use that organization's authorized exports in a local, non-version-controlled directory; verify column names, currency, reporting windows, and attribution definitions before relying on results. Do not copy customer-level exports, tokens, or confidential reporting from a previous organization. Existing scripts and calculation logic are unchanged by this documentation update.
+
+**Provenance:** Some scripts are adapted from earlier analysis work, as identified above. Their general applicability does not establish ownership or permission to redistribute any protected implementation.
